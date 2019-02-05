@@ -1,0 +1,21 @@
+{
+  "name": "webpack_babel",
+  "version": "1.0.0",
+  "description": "This is a starter pack for building JavaScript applications using ES2015, ES2016 & ES2017",
+  "main": "webpack.config.babel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "Greg",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.1",
+    "webpack-cli": "^3.2.3"
+  }
+}
