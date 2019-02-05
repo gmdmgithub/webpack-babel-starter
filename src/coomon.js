@@ -13,6 +13,7 @@ function log(...mes) {
 
 // module.exports.first = first;
 // module.exports.second = second;
+// module.exports = log
 export {
     first,
     second
